@@ -15,4 +15,4 @@ jobs:
         port: ${{ secrets.PORT }}
         source: "src/index.html,src/style.css"
         target: "links.giagoulas.com/"
-        overwrite: true
+        strip_components: 1
