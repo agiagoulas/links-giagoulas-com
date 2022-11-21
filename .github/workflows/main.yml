@@ -13,6 +13,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "src/index.html,src/style.css"
+        source: "src/index.html"
         target: "links.giagoulas.com/"
-        strip_components: 1
+        overwrite: true
